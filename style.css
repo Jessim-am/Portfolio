@@ -1,6 +1,48 @@
-.tailleLinkLog{
-    width: 26px;
-    height: 26px;
-    
+.bgBrown {
+    background-color: #DE8F5F;
+    padding-bottom: 8px;
 }
 
+header {
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+    display: inline;
+   
+    text-align: center;
+
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.nav {
+    padding-top: 10px;
+    width:50% ;
+    margin: auto;
+    font-size:15px ;
+    font-family: "Inter", sans-serif;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+.bgOrange{
+    background-color: #FFB26F;
+}

@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<header>
-    <nav>
-        <ul>
+<header class="bgBrown">
+    <nav class="bgNav nav">
+        <ul class="flex spaceBetween">
             <li><a href="">Accueil</a></li>
             <li><a href="">Projets</a></li>
             <li><a href="">Formation</a></li>
@@ -18,15 +19,15 @@
     </nav>
 </header>
 
-<body>
+<body class="bgOrange">
     <!-- Section de la description -->
-    <section>
+    <section class="textCenter">
         <h2>BIENVENUE</h2>
         <p>Moi, c'est Jessim et je recherche une formation dans le developpement web front-end</p>
     </section>
 
     <!-- Section des projets -->
-    <section>
+    <section class="textCenter">
         <h2>Mes projets</h2>
         <div>
             <div>
@@ -65,18 +66,18 @@
     </section>
 
     <!-- Section formation -->
-    <section>
+    <section class="textCenter">
         <h2>Formation</h2>
         <h3>Octobre 2024 - Février 2025</h3>
         <h4>La toile EM Lyon</h4>
         <p>Formation conception et developpements web</p>
     </section>
 
-    <footer>
+    <footer class="bgBrown textCenter">
         <h2>Me contacter</h2>
         <ul>
             <li><a href="mailto:jessim.amahal@latoile.em-lyon.com">
-                    <img src clas="https://th.bing.com/th?id=OIP.S0KWqiT-H-8UJCFVqDIuFQHaD4&w=345&h=181&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"
+                    <img src="https://th.bing.com/th?id=OIP.S0KWqiT-H-8UJCFVqDIuFQHaD4&w=345&h=181&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2"
                         alt=""></a>
             </li>
 
@@ -90,7 +91,9 @@
                 </a>
             </li>
 
-            <li><a href="https://fr.linkedin.com/"><img src="/assets/logoLinkedin.png" alt=""></a></li>
+            <li><a href="https://fr.linkedin.com/">
+                    <img src="/assets/logoLinkedin.png" alt=""></a>
+            </li>
         </ul>
     </footer>
 </body>
