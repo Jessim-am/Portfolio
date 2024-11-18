@@ -1,5 +1,11 @@
-.bgBrown {
-    background-color: #DE8F5F;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bgBleufonce{
+    background-color: #0F67B1;
     padding-bottom: 8px;
 }
 
@@ -10,13 +16,14 @@ header {
 
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
 }
+
+header a {color: white;}
 
 li {
     list-style: none;
     display: inline;
-   
     text-align: center;
 
 }
@@ -43,6 +50,29 @@ li {
     text-align: center;
 }
 
-.bgOrange{
-    background-color: #FFB26F;
+.bgGris{
+    background-color: #EEEDEB;
+}
+
+.TextFooter{
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+
+i {
+    font-size: 30px;
+    color: white;
+}
+
+.cartesProjets {
+    width: 40%;
+    background-color: #8927f1;
+}
+
+.boiteCartes {
+    width: 70%;
+    margin: auto;
+    gap: 10px;
+    background-color: red;
+    justify-content: center;
 }
